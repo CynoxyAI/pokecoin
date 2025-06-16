@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PokéCoin - The Unofficially Official Meme Coin</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ff0099, #ffee00);
+      color: #000;
+      font-family: 'Comic Sans MS', cursive;
+      text-align: center;
+      animation: bgGlitch 5s infinite alternate;
+    }
+
+    @keyframes bgGlitch {
+      0% { background-position: 0 0; }
+      100% { background-position: 100% 100%; }
+    }
+
+    img {
+      width: 180px;
+      border: 8px dotted #000;
+      border-radius: 50%;
+      margin-top: 20px;
+      animation: spinny 4s linear infinite;
+    }
+
+    @keyframes spinny {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #ff0000;
+      text-shadow: 3px 3px #ffff00;
+    }
+
+    marquee {
+      font-size: 1.5rem;
+      color: #0000ff;
+      background: #fff;
+      padding: 10px;
+      border: 5px dashed #000;
+      margin-top: 20px;
+    }
+
+    .btn {
+      background: #00ffff;
+      color: #000;
+      font-weight: bold;
+      padding: 1rem;
+      border: 3px dashed #000;
+      border-radius: 50px;
+      cursor: pointer;
+      margin: 10px;
+      font-size: 1.2rem;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      background: hotpink;
+      transform: scale(1.1) rotate(-5deg);
+    }
+
+    .section {
+      margin: 3rem 1rem;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.9);
+      border: 4px groove limegreen;
+      border-radius: 10px;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 1.2rem;
+      background: black;
+      color: lime;
+      padding: 1rem;
+      border-top: 5px double red;
+    }
+
+    .gif {
+      width: 150px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="logo.png" alt="PokéCoin Logo" />
+  <h1>PokéCoin ($PKCN)</h1>
+
+  <marquee>🚨 ALERT: Buy $PKCN or your toaster will dump you 🚨</marquee>
+
+  <div>
+    <button class="btn" onclick="alert('Coming Soon™')">🧻 Buy Now</button>
+    <button class="btn" onclick="window.open('https://t.me/pokemoncoin')">📣 Join our cult</button>
+  </div>
+
+  <div class="section">
+    <h2>🧠 What is PokéCoin?</h2>
+    <p>
+      It's a coin. It's a meme. It's probably illegal in 3 galaxies.<br>
+      Inspired by Pikachu but not approved by anyone ever.  
+      We built this on vibes and caffeine.
+    </p>
+    <img class="gif" src="https://media.giphy.com/media/TilmLMmWrRYYHjLfub/giphy.gif" alt="Pika dance">
+  </div>
+
+  <div class="section">
+    <h2>📊 Tokenomics</h2>
+    <ul style="text-align: left; max-width: 400px; margin: auto;">
+      <li>💸 69% YOLO Supply</li>
+      <li>👀 20% Reserved for future bribes</li>
+      <li>🐀 5% for that one guy named Steve</li>
+      <li>🎲 6% Lost in a poker game</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📅 Roadmap (Maybe)</h2>
+    <ol style="text-align: left; max-width: 400px; margin: auto;">
+      <li>✅ Step 1: Launch and confuse people</li>
+      <li>🔁 Step 2: ???</li>
+      <li>🚀 Step 3: Profit (hopefully)</li>
+      <li>🛸 Step 4: Send coin to space</li>
+      <li>🪦 Step 5: Rug or retire</li>
+    </ol>
+    <img class="gif" src="https://media.giphy.com/media/duzpaTbCUy9Vu/giphy.gif" alt="Confusion">
+  </div>
+
+  <footer>
+    ⚡ Powered by memes, glitches, and caffeine overdose.  
+    <br>Copyright © 2077 PokéCoin  
+  </footer>
+
+</body>
+</html>
